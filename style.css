@@ -1,0 +1,75 @@
+/* ============================================
+   RÈGLES GÉNÉRALES
+   Ici on dit "sur TOUTE la page, applique ces styles"
+   ============================================ */
+body {
+  font-family: Arial, sans-serif;   /* la police de texte utilisée */
+  max-width: 700px;                 /* la page ne s'étale pas plus large que 700px */
+  margin: 40px auto;                /* centre la page + espace en haut/bas */
+  padding: 0 20px;                  /* un peu d'air sur les côtés */
+  line-height: 1.6;                 /* espace entre les lignes de texte */
+  color: #222;                      /* couleur du texte (gris très foncé) */
+  background-color: #fafafa;        /* couleur de fond de la page */
+}
+
+/* ============================================
+   EN-TÊTE (le nom + sous-titre en haut)
+   ============================================ */
+header {
+  border-bottom: 3px solid #1f3864; /* une ligne bleue foncée sous le header */
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+}
+
+header h1 {
+  margin: 0;
+  color: #1f3864;    /* bleu foncé, la couleur "principale" du CV */
+}
+
+.sous-titre {
+  color: #666;       /* gris moyen */
+  font-style: italic;
+  margin-top: 5px;
+}
+
+/* ============================================
+   CHAQUE SECTION (Profil, Compétences, etc.)
+   ============================================ */
+section {
+  margin-bottom: 25px;
+}
+
+/* Le "h2" est utilisé pour chaque titre de section */
+section h2 {
+  color: #1f3864;
+  border-bottom: 1px solid #ccc;   /* petite ligne grise sous chaque titre */
+  padding-bottom: 5px;
+  font-size: 1.1em;
+  text-transform: uppercase;       /* met le texte en majuscules automatiquement */
+}
+
+/* Les listes à puces */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* ============================================
+   PIED DE PAGE
+   ============================================ */
+footer {
+  margin-top: 40px;
+  font-size: 0.8em;
+  color: #999;
+  text-align: center;
+}
+
+/* ============================================
+   ESSAIE TOI-MÊME :
+   - Change "#1f3864" par une autre couleur (ex: "#2e7d32" pour du vert)
+   - Change "Arial" en "Georgia" ou "Verdana" et regarde la différence
+   - Change "max-width: 700px" en "500px" et vois la page rétrécir
+   ============================================ */
