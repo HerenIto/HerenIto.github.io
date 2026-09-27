@@ -32,6 +32,17 @@ header h1 {
   margin-top: 5px;
 }
 
+.badge {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #e8f0fe;   /* bleu très clair */
+  color: #1f3864;
+  border-radius: 20px;         /* coins arrondis, effet "pilule" */
+  font-size: 0.85em;
+  font-style: normal;
+}
+
 /* ============================================
    CHAQUE SECTION (Profil, Compétences, etc.)
    ============================================ */
